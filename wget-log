@@ -1,0 +1,13 @@
+URL transformed to HTTPS due to an HSTS policy
+--2023-01-10 16:42:11--  https://rubygems.org/
+Resolving rubygems.org (rubygems.org)... 2a04:4e42:400::483, 2a04:4e42:200::483, 2a04:4e42::483, ...
+Connecting to rubygems.org (rubygems.org)|2a04:4e42:400::483|:443... failed: Connection timed out.
+Connecting to rubygems.org (rubygems.org)|2a04:4e42:200::483|:443... failed: Connection timed out.
+Connecting to rubygems.org (rubygems.org)|2a04:4e42::483|:443... failed: Connection timed out.
+Connecting to rubygems.org (rubygems.org)|2a04:4e42:600::483|:443... failed: Connection timed out.
+Retrying.
+
+--2023-01-10 16:50:55--  (try: 2)  https://rubygems.org/
+Connecting to rubygems.org (rubygems.org)|2a04:4e42:400::483|:443... failed: Connection timed out.
+Connecting to rubygems.org (rubygems.org)|2a04:4e42:200::483|:443... failed: Connection timed out.
+Connecting to rubygems.org (rubygems.org)|2a04:4e42::483|:443... 
