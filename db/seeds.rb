@@ -6,35 +6,38 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-puts 'Creating Seed Posts...'
+puts 'Seeding Users...'
 
 # USER SEEDS
 User.create!({
   first_name: 'Bri',
   last_name: 'Webb',
   email: 'briannawebb@email.com',
-  password: 'Benlovesme!'
+  password: ENV['BRI_ADMIN_PASSWORD'],
   admin: true
 })
 User.create!({
   first_name: 'Ben',
   last_name: 'Chavez',
   email: 'ben.m.chavez@gmail.com',
-  password: 'Firstcodingproject!',
+  password: ENV['BEN_ADMIN_PASSWORD'],
   admin: true
 })
 
+puts 'Seeding Posts...'
 # POST SEEDS
 Post.create!({
   title: "001.",
   body: "This is the first blog post",
-  user_id: 2,
+  user_id: 1,
+  draft: false,
   publish_date: Time.now
 })
 Post.create!({
   title: "002.",
   body: "This is the SECOND blog post",
-  user_id: 2,
+  user_id: 1,
+  draft: false,
   publish_date: Time.now
 })
 

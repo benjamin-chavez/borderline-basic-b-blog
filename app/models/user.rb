@@ -8,12 +8,12 @@ class User < ApplicationRecord
   has_many :comments, dependent: :destroy
   has_one_attached :avatar
   validates_presence_of :first_name, :last_name
-  
+
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
   devise :omniauthable, omniauth_providers: [:facebook]
 
-  after_commit :add_default_avatar, on: %i[create update]
+  # after_commit :add_default_avatar, on: %i[create update] #TODO: ADD THIS BACK IN.
 
   def self.find_for_facebook_oauth(auth)
     user_params = auth.slice("provider", "uid")
