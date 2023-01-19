@@ -124,7 +124,7 @@ GEM
     gibbon (3.4.4)
       faraday (>= 1.0)
       multi_json (>= 1.11.0)
-    globalid (1.0.0)
+    globalid (1.0.1)
       activesupport (>= 5.0)
     hashie (5.0.0)
     http-accept (1.7.0)
