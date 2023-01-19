@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
   database: borderline_basic_b_blog_production
   username: borderline_basic_b_blog
   password: <%= ENV['BORDERLINE_BASIC_B_BLOG_DATABASE_PASSWORD'] %>
