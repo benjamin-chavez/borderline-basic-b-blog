@@ -52,85 +52,85 @@ Post.create!({
 Post.create!({
   title: "002.",
   body: """
-    <p>
-      Maaaaan. Can I get a “hell yeah” from all my friends who struggle with sleep
-      due to anxiety, depression, insomnia, or literally any reason that may keep
-      you up at night?
-    </p>
+  <p>
+    Maaaaan. Can I get a “hell yeah” from all my friends who struggle with sleep
+    due to anxiety, depression, insomnia, or literally any reason that may keep
+    you up at night?
+  </p>
 
-    <p>
-      Let me tell YOU. I used the be the best sleeper in the world! Even my mom will
-      tell you that I could have slept through a tornado and not have even known the
-      difference, but that sweet sweet release of sleep has gone COMPLETELY down the
-      drain in the last year or so.
-    </p>
+  <p>
+    Let me tell YOU. I used the be the best sleeper in the world! Even my mom will
+    tell you that I could have slept through a tornado and not have even known the
+    difference, but that sweet sweet release of sleep has gone COMPLETELY down the
+    drain in the last year or so.
+  </p>
 
-    <p>
-      For some people, like my very odd boyfriend (love you!) sleep is a waste of
-      time, but an unfortunate necessity. Some people would rather spend the time
-      that they are sleeping working on projects or doing pretty much anything else
-      aside from laying in bed.
-    </p>
+  <p>
+    For some people, like my very odd boyfriend (love you!) sleep is a waste of
+    time, but an unfortunate necessity. Some people would rather spend the time
+    that they are sleeping working on projects or doing pretty much anything else
+    aside from laying in bed.
+  </p>
 
-    <p>
-      For people like me, sleep is an <strong>absolute necessity</strong>, and a much need reset. The
-      word rest is important, because if you are like me, you <strong>NEED</strong> that time to
-      allow your brain to turn off so you can finally get some fricken PEACE. I
-      spend <p>literally</p>strong> all day everyday thinking about as many things as I possibly
-      can, and I can’t ever make it stop. It’s exhausting and debilitating and
-      sometimes those 6-8 (recommended) hours are the only thing keeping me from
-      snapping, and I’m not the prettiest picture when I’m feeling overwhelmed.
-      Additionally, like most people who struggle with mental health, those hours of
-      sleep can be the difference in setting off an episode, or helping me keep my
-      emotions under control.
-    </p>
+  <p>
+    For people like me, sleep is an <strong>absolute necessity</strong>, and a
+    much need reset. The word rest is important, because if you are like me, you
+    <strong>NEED</strong> that time to allow your brain to turn off so you can
+    finally get some fricken PEACE. I spend <strong>literally</strong> all day
+    everyday thinking about as many things as I possibly can, and I can’t ever
+    make it stop. It’s exhausting and debilitating and sometimes those 6-8
+    (recommended) hours are the only thing keeping me from snapping, and I’m not
+    the prettiest picture when I’m feeling overwhelmed. Additionally, like most
+    people who struggle with mental health, those hours of sleep can be the
+    difference in setting off an episode, or helping me keep my emotions under
+    control.
+  </p>
 
-    <p>
-      Here’s the unfortunate thing for me. I rarely get a good nights sleep anymore.
-      Between my noisy roommate, the absurdly loud street at night, my boyfriend
-      snoring/tossing and turning, and my never ending anxiety and rambunctious
-      brain, I am left wanting to tear my hair out most mornings. Gotta love my poor
-      sweet boyfriend for dealing with the hell that is me after a night of
-      sleeplessness! There have even been nights where I wake up to go to the
-      bathroom, come back to lay down, and I literally can’t get back to sleep
-      because a song is on repeat in my head. The most recent song was basically
-      just two lines from the ending scene in Grease. Can you even imagine? “<strong>YOU’RE
-      THE ONE THAT I WANT YOU ARE THE ONE I WANT WOOO WOOO WOOOOOOOO HONEY</strong>” over and
-      over and over again until I need to get up for work. I mean COME ON, this is
-      the reason I can’t get back to sleep?! I suppose I have my Halloween costume
-      to thank for that wonderful night.
-    </p>
+  <p>
+    Here’s the unfortunate thing for me. I rarely get a good nights sleep anymore.
+    Between my noisy roommate, the absurdly loud street at night, my boyfriend
+    snoring/tossing and turning, and my never ending anxiety and rambunctious
+    brain, I am left wanting to tear my hair out most mornings. Gotta love my poor
+    sweet boyfriend for dealing with the hell that is me after a night of
+    sleeplessness! There have even been nights where I wake up to go to the
+    bathroom, come back to lay down, and I literally can’t get back to sleep
+    because a song is on repeat in my head. The most recent song was basically
+    just two lines from the ending scene in Grease. Can you even imagine? “<strong
+      >YOU’RE THE ONE THAT I WANT YOU ARE THE ONE I WANT WOOO WOOO WOOOOOOOO
+      HONEY</strong
+    >” over and over and over again until I need to get up for work. I mean COME
+    ON, this is the reason I can’t get back to sleep?! I suppose I have my
+    Halloween costume to thank for that wonderful night.
+  </p>
 
-    <p>
-      It’s gotten so bad that I use a white noise machine, take special melatonin
-      that are instant AND extended release, as well as wear ear plugs when needed,
-      and I still can’t get any damn rest. I’m basically at my wits end!
-    </p>
+  <p>
+    It’s gotten so bad that I use a white noise machine, take special melatonin
+    that are instant AND extended release, as well as wear ear plugs when needed,
+    and I still can’t get any damn rest. I’m basically at my wits end!
+  </p>
 
-    <p>
-      So as I’ve put the blame on literally everything else I can think of, it
-      leaves me wondering.... what is happening in my life that is causing me to be
-      so restless? Is it one or all of the many reasons I’ve listed above? Or is it
-      something rooted in my subconscious? Maybe it could be the culmination of
-      mental health issues that have surfaced in the last couple years, or maybe
-      moving apartments really would help. Lord knows I’ve had my fair share of
-      surprises with my mental health this year, maybe something else is lurking in
-      the shadows. Whether the issue be something tangible, or something more
-      impalpable the only way to get to the root of the problem is by self
-      reflection. Maybe documenting my emotions and thoughts in this blog will help.
-      All I know is that I need peace.
-    </p>
+  <p>
+    So as I’ve put the blame on literally everything else I can think of, it
+    leaves me wondering.... what is happening in my life that is causing me to be
+    so restless? Is it one or all of the many reasons I’ve listed above? Or is it
+    something rooted in my subconscious? Maybe it could be the culmination of
+    mental health issues that have surfaced in the last couple years, or maybe
+    moving apartments really would help. Lord knows I’ve had my fair share of
+    surprises with my mental health this year, maybe something else is lurking in
+    the shadows. Whether the issue be something tangible, or something more
+    impalpable the only way to get to the root of the problem is by self
+    reflection. Maybe documenting my emotions and thoughts in this blog will help.
+    All I know is that I need peace.
+  </p>
 
-    <p>
-      Wishing all of my fellow sleepless peeps the deepest most magical sleep of
-      your lives tonight.
-    </p>
+  <p>
+    Wishing all of my fellow sleepless peeps the deepest most magical sleep of
+    your lives tonight.
+  </p>
 
-    <p>Until next time,</p>
+  <p>Until next time,</p>
 
-    <p><strong>B.</strong></p>
-
-
+  <p><strong>B.</strong></p>
   """,
   user_id: 1,
   draft: false,
