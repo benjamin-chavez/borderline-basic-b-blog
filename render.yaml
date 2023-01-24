@@ -15,6 +15,8 @@ services:
         fromDatabase:
           name: postgres
           property: connectionString
+      - key: BRI_ADMIN_PASSWORD
+      - key: BEN_ADMIN_PASSWORD
   # - type: redis
   #   name: redis
   #   ipAllowList: []
