@@ -17,6 +17,8 @@ services:
           property: connectionString
       - key: BRI_ADMIN_PASSWORD
       - key: BEN_ADMIN_PASSWORD
+      - key: FB_ID
+      - key: FB_SECRET
   # - type: redis
   #   name: redis
   #   ipAllowList: []

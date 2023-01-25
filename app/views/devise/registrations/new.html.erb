@@ -19,21 +19,21 @@
           <div class="col-6">
             <%= f.input :last_name,
                         label: false,
-                        placeholder: "Last name",  
+                        placeholder: "Last name",
                         required: true,
                         autofocus: true,
                         input_html: { autocomplete: "last name" }%>
-          </div>  
+          </div>
         </div>
         <%= f.input :email,
                     placeholder: "Email",
-                    label: false,          
+                    label: false,
                     required: true,
                     autofocus: true,
                     input_html: { autocomplete: "email" }%>
         <%= f.input :password,
                     label: false,
-                    placeholder: "Password",         
+                    placeholder: "Password",
                     required: true,
                     hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length),
                     input_html: { autocomplete: "new-password" } %>
@@ -56,7 +56,7 @@
         <span class="col-5 align-middle"> <hr> </span>
         <span class="text-muted">or</span>
         <span class="col-5 align-middle"> <hr> </span>
-      </div>        
+      </div>
       <%= link_to omniauth_authorize_path(resource_name, :facebook), :class => "btn fb-btn" do %>
         <i class="fab fa-facebook-square"></i>
         Log in with Facebook
