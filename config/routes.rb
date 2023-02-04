@@ -16,14 +16,13 @@ Rails.application.routes.draw do
   get 'about' => 'pages#about', as: 'about'
   get 'dashboard' => 'pages#dashboard', as: 'dashboard'
   get 'newest_post' => 'pages#newest_post', as: 'newest_post'
-  
+
   get 'settings/unsubscribe'
   patch 'settings/update'
 
   resources :users, only: [:show, :update]
-  resources :posts do 
+  resources :posts do
     resources :comments
   end
-  
-end
 
+end

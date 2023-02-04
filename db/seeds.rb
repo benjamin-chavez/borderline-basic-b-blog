@@ -9,21 +9,21 @@
 puts 'Seeding Users...'
 
 # USER SEEDS
-# User.create!({
-#   first_name: 'Bri',
-#   last_name: 'Webb',
-#   email: 'briannawebb@email.com',
-#   password: ENV['BRI_ADMIN_PASSWORD'],
-#   admin: true
-# })
+User.create!({
+  first_name: 'Bri',
+  last_name: 'Webb',
+  email: 'briannawebb@email.com',
+  password: ENV['BRI_ADMIN_PASSWORD'],
+  admin: true
+})
 
-# User.create!({
-#   first_name: 'Ben',
-#   last_name: 'Chavez',
-#   email: 'ben.m.chavez@gmail.com',
-#   password: ENV['BEN_ADMIN_PASSWORD'],
-#   admin: true
-# })
+User.create!({
+  first_name: 'Ben',
+  last_name: 'Chavez',
+  email: 'ben.m.chavez@gmail.com',
+  password: ENV['BEN_ADMIN_PASSWORD'],
+  admin: true
+})
 
 puts 'Seeding Posts...'
 # POST SEEDS
