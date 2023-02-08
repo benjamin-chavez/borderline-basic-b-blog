@@ -1,3 +1,5 @@
+<%# DELETE?? %>
+
 <!-- <%= render "shared/banner" %>
 <!-- <h2>Edit <%= resource_name.to_s.humanize %></h2> -->
 <div class="row d-flex justify-content-center my-account-dash">
@@ -9,6 +11,7 @@
         <div class="form-inputs">
           <div class="row pb-4">
             <div class="image-upload col d-flex justify-content-center">
+            <%# <% binding.pry %>
               <% if current_user.facebook_picture_url? %>
                 <span class="fb-avatar">
                   <%= image_tag current_user.facebook_picture_url, class: "avatar-large fb-avatar" + "?type=large" %>
@@ -45,15 +48,15 @@
             <div class="col-6">
               <%= f.input :last_name,
                           label: "Last Name",
-                          placeholder: "Last name",  
+                          placeholder: "Last name",
                           required: true,
                           autofocus: true,
                           input_html: { autocomplete: "last name" }%>
-            </div>  
+            </div>
           </div>
           <%= f.input :email,
                     placeholder: "Email",
-                    # label: false,          
+                    # label: false,
                     required: true,
                     autofocus: true,
                     input_html: { autocomplete: "email" }%>
@@ -80,8 +83,8 @@
                 </label>
               </fieldset>
             </span>
-          </div>  
-      
+          </div>
+
       </div>
 
         <div class="form-actions">
@@ -104,7 +107,7 @@
 
 
 
-<!-- 
+<!--
 <div class="row d-flex justify-content-center">
   <div class="col-sm-12 col-md-8 col-lg-5">
     <div class="form-login">
@@ -124,21 +127,21 @@
           <div class="col-6">
             <%= f.input :last_name,
                         label: false,
-                        placeholder: "Last name",  
+                        placeholder: "Last name",
                         required: true,
                         autofocus: true,
                         input_html: { autocomplete: "last name" }%>
-          </div>  
+          </div>
         </div>
         <%= f.input :email,
                     placeholder: "Email",
-                    label: false,          
+                    label: false,
                     required: true,
                     autofocus: true,
                     input_html: { autocomplete: "email" }%>
         <%= f.input :password,
                     label: false,
-                    placeholder: "Password",         
+                    placeholder: "Password",
                     required: true,
                     hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length),
                     input_html: { autocomplete: "new-password" } %>
@@ -151,7 +154,7 @@
         <span class="col-5 align-middle"> <hr> </span>
         <span class="text-muted">or</span>
         <span class="col-5 align-middle"> <hr> </span>
-      </div>        
+      </div>
       <%= link_to omniauth_authorize_path(resource_name, :facebook), :class => "btn fb-btn" do %>
         <i class="fab fa-facebook-square"></i>
         Log in with Facebook

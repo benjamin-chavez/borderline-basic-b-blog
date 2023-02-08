@@ -18,6 +18,7 @@
                   <i class="fas fa-camera"></i>
                   <span class="btn-background">
                     <span class="avatar-upload-btn">
+                    <%# <% binding.pry %>
                       <% if current_user.avatar.attached? %>
                         <%= cl_image_tag current_user.avatar.key, transformation: [{width: 1000, height: 1000, gravity: "face", radius: "max", crop: "crop"}, {width: 200, crop: "scale"}],class: "avatar-large" %>
                       <% else %>
